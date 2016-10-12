@@ -201,9 +201,10 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	/*background: url(../img/header.jpg) no-repeat center top;*/
 	padding-top: 5px;
 	background-attachment: relative;
+	background-color: #22A7F0;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
@@ -297,8 +298,8 @@ input {
 }
 
 /* CONTACT SEPARATOR */
-#sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+#nyc {
+	background: url(../img/nycdaytime.jpg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -317,25 +318,42 @@ input {
     background-size: cover;
     color: white;
 }
+/*#nyc h1, h3 {
+	color: white;
+}*/
 
-#sep h3 {
+#nyc h3 {
 	font-weight: 300;
 	letter-spacing: 2px;
 }
 
+#transbox {
+	  margin: 30px;
+    background-color: #ffffff;
+    /*border: 1px solid black;*/
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#transbox h1, h3 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
 /* FOOTER */
-#f {
+#footer {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: #22A7F0;
 }
 
-#f i {
+#footer i {
 	margin-right: 30px;
 	font-size: 35px;
 }
 
-#f a {
+#footer a {
 	color: white;
 }
 
