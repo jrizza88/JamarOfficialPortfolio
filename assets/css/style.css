@@ -224,7 +224,7 @@ input {
 #h .logo {
 	margin-top: 30px;
 	margin-left: 40px;
-	padding-bottom: 150px;
+	padding-bottom: 75px;
 }
 
 #h .logo h2{
@@ -241,6 +241,20 @@ input {
 	font-size: 50px;
 }
 
+div.headerImg  {
+	background-position: center;
+}
+.headerImg .img-responsive img{
+	background-image:  center;
+	background-size: center;
+	padding:0 !important;
+	margin:0 !important;
+	display:block;
+	margin-left: 40px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
 /* GREY SECTION */
 #g {
 	padding-top: 50px;
@@ -255,11 +269,14 @@ input {
 .portfolio {
 	padding:0 !important;
 	margin:0 !important;
+	float: center;
 	display:block;
+	background-attachment: relative;
+	background-position: center center;
 }
 
 #displayimage {
-	background-color: white;
+	/*background-color: white;*/
 }
 
 
@@ -326,9 +343,7 @@ input {
     background-size: cover;
     color: white;
 }
-/*#nyc h1, h3 {
-	color: white;
-}*/
+
 
 #nyc h3 {
 	font-weight: 300;
