@@ -155,7 +155,8 @@ input {
 	}
 
 .btn-clear {
-	background: transparent;
+	/*background: transparent;*/
+	opacity: 0.9;
 	color: white;
 	border: 2px solid white;
 }
@@ -352,6 +353,7 @@ input {
 #transbox {
 	  margin: 30px;
     background-color: #ffffff;
+    padding: 2px;
     /*border: 1px solid black;*/
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
